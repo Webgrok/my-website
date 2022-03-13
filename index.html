@@ -11,7 +11,7 @@
     <link
       type="text/css"
       rel="stylesheet"
-      href="fontawesome-free-6.0.0-beta3-web/css/all.min.css"
+      href="fonts/fontawesome-free-6.0.0-beta3-web/css/all.min.css"
     />
     <!-- <meta name="viewport" content="width=device-width, initial-scale= 1.0" /> -->
 
@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="project.css" type="text/css" />
     <title>Wabbit</title>
 
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Aclonica&family=Carter+One&family=Margarine&family=Mochiy+Pop+P+One&family=Nova+Oval&family=Paytone+One&family=Permanent+Marker&family=Poppins:wght@300;400;500&family=Preahvihear&display=swap"
       rel="stylesheet"
-    />
+    /> -->
   </head>
   <body class="body">
     <!-- this is the begining of the navigation -->
@@ -227,7 +227,7 @@
               <div>
                 <p class="popular-post">Politics</p>
               </div>
-              <div class="post-">
+              <div class="post-icon">
                 <i class="fas cat-icon fa-feather-alt"></i>
                 <i class="fas fa-bell cat-icon bell"> </i>
                 <i class="fa-solid fa-grip closeIt"> </i>
@@ -335,71 +335,9 @@
             </div>
 
             <!--   end of nav-link -->
-            <div class="box posts">
-              <div class="postHeader">
-                <div class="post-wrapper">
-                  <div>
-                    <span>
-                      <img
-                        class="dp"
-                        height="25px"
-                        src="images/pic2.jpg"
-                        alt="img"
-                      />
-                    </span>
-                  </div>
-                  <div class="name">micheal smith</div>
-                  <div class="time">5 hr</div>
-                </div>
-                <div>
-                  <a href="#"
-                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- end of postHeader -->
-              <div class="post-media">
-                <div class="text-wrapper">
-                  <div class="link">
-                    <p>
-                      Today is my birthday and we will celebrate like never
-                      before let us say our prayer before we fist
-                    </p>
-                  </div>
-                  <div class="paragraph">
-                    <p class="paragraph-text">
-                      Governor Obaseki Dragged To Court Over Certificate
-                      Forgery, Perjury Governor Obaseki Dragged we all have our
-                      weakness and it is a what makes us humanThank you for all
-                      the women that i know cant go 5050 with no whore Thank you
-                      for all the women that i know cant go 5050 with no
-                      whoreThank you for all the women that i know cant go 5050
-                      with no whore
-                    </p>
-                  </div>
-                </div>
-                <div class="icon">
-                  <div id="heart">
-                    <i class="fa-solid fa-eye eyes"
-                      ><span class="views"></span
-                    ></i>
-                  </div>
-                  <div id="comment">
-                    <i class="fa-solid fa-hands-clapping"></i>
-                    <!-- <i class="fa-thin fa-hands-clapping hand"
-                      ><span class="clapping"></span
-                    ></i> -->
-                  </div>
-                  <div id="icon">
-                    <i class="fa-solid fa-bookmark"></i>
-                  </div>
-                </div>
-              </div>
-              <!--end of icon-->
-            </div>
-            <!-- end of posts -->
 
             <div class="box posts">
+              <!-- post header-->
               <div class="postHeader">
                 <div class="post-wrapper">
                   <div>
@@ -412,6 +350,7 @@
                   </div>
                   <div class="name">micheal smith</div>
                   <div class="time">5 hr</div>
+                  <div><i class="fa-regular fa-bookmark"></i></div>
                 </div>
                 <div>
                   <a href="#"
@@ -421,11 +360,6 @@
               </div>
               <!-- end of postHeader -->
               <div class="media-wrapper">
-                <div id="media2">
-                  <div id="media">
-                    <img class="pic" src="images/pic2.jpg" />
-                  </div>
-                </div>
                 <div class="snippet-wrapper">
                   <div class="snippet-link">
                     <p>
@@ -446,22 +380,23 @@
                   </div>
                 </div>
                 <!-- end of snippet wrapper -->
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                  </div>
+                  <div id="icon">
+                    <i class="fa-regular fa-comment"></i>
+                  </div>
+                </div>
+                <!--end of icon-->
               </div>
-              <div class="icon">
-                <div id="heart">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
-                <div id="comment">
-                  <i class="fa-solid fa-hands-clapping"></i>
-                </div>
-                <div id="icon">
-                  <i class="fa-regular fa-bookmark"></i>
-                </div>
-              </div>
-              <!--end of icon-->
             </div>
             <!--end of posts-->
             <div class="box posts">
+              <!-- post header-->
               <div class="postHeader">
                 <div class="post-wrapper">
                   <div>
@@ -474,6 +409,7 @@
                   </div>
                   <div class="name">micheal smith</div>
                   <div class="time">5 hr</div>
+                  <div><i class="fa-regular fa-bookmark"></i></div>
                 </div>
                 <div>
                   <a href="#"
@@ -482,43 +418,49 @@
                 </div>
               </div>
               <!-- end of postHeader -->
-              <div class="text-wrapper">
-                <div id="media2">
+              <div class="media-wrapper">
+                <div class="snippet-wrapper">
                   <div id="media">
-                    <video src="video/moti.mp4" controls></video>
+                    <div id="media-innerwrapper">
+                      <video src="video/moti.mp4" controls></video>
+                    </div>
+                  </div>
+                  <div class="snippet-link">
+                    <p>
+                      Today is my birthday and we will celebrate like never
+                      before let us say our prayer before we fist
+                    </p>
+                  </div>
+                  <div class="snippet-text">
+                    <p class="paragraph">
+                      Governor Obaseki Dragged To Court Over Certificate
+                      Forgery, Perjury Governor Obaseki Dragged we all have our
+                      weakness and it is a what makes us humanThank you for all
+                      the women that i know cant go 5050 with no whore Thank you
+                      for all the women that i know cant go 5050 with no
+                      whoreThank you for all the women that i know cant go 5050
+                      with no whore
+                    </p>
                   </div>
                 </div>
-                <div class="link">
-                  <p>
-                    Today is my birthday and we will celebrate like never before
-                    let us say our prayer before we fist
-                  </p>
+                <!-- end of snippet wrapper -->
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                  </div>
+                  <div id="icon">
+                    <i class="fa-regular fa-comment"></i>
+                  </div>
                 </div>
-                <div class="paragraph">
-                  Governor Obaseki Dragged To Court Over Certificate Forgery,
-                  Perjury Governor Obaseki Dragged we all have our weakness and
-                  it is a what makes us humanThank you for all the women that i
-                  know cant go 5050 with no whore Thank you for all the women
-                  that i know cant go 5050 with no whoreThank you for all the
-                  women that i know cant go 5050 with no whore
-                </div>
+                <!--end of icon-->
               </div>
-              <div class="icon">
-                <div id="heart">
-                  <i class="fa-solid fa-eye"></i>
-                </div>
-                <div id="comment">
-                  <i class="fa-solid fa-hands-clapping"></i>
-                </div>
-                <div id="icon">
-                  <i class="fa-regular fa-bookmark"></i>
-                </div>
-              </div>
-              <!--end of icon-->
             </div>
             <!--end of posts-->
-
             <div class="box posts">
+              <!-- post header-->
               <div class="postHeader">
                 <div class="post-wrapper">
                   <div>
@@ -531,6 +473,7 @@
                   </div>
                   <div class="name">micheal smith</div>
                   <div class="time">5 hr</div>
+                  <div><i class="fa-regular fa-bookmark"></i></div>
                 </div>
                 <div>
                   <a href="#"
@@ -539,39 +482,143 @@
                 </div>
               </div>
               <!-- end of postHeader -->
-
-              <div class="box posts">
-                <div id="media2">
+              <div class="media-wrapper">
+                <div class="snippet-wrapper">
                   <div id="media">
-                    <img class="pic" src="images/pic2.jpg" />
+                    <div id="media-innerwrapper">
+                      <img class="pic" src="images/pic2.jpg" />
+                    </div>
+                  </div>
+                  <div class="snippet-link">
+                    <p>
+                      Today is my birthday and we will celebrate like never
+                      before let us say our prayer before we fist
+                    </p>
+                  </div>
+                  <div class="snippet-text">
+                    <p class="paragraph">
+                      Governor Obaseki Dragged To Court Over Certificate
+                      Forgery, Perjury Governor Obaseki Dragged we all have our
+                      weakness and it is a what makes us humanThank you for all
+                      the women that i know cant go 5050 with no whore Thank you
+                      for all the women that i know cant go 5050 with no
+                      whoreThank you for all the women that i know cant go 5050
+                      with no whore
+                    </p>
                   </div>
                 </div>
-                <div class="link">
-                  Today is my birthday and we will celebrate like never before
-                  let us say our prayer before we fis
+                <!-- end of snippet wrapper -->
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                  </div>
+                  <div id="icon">
+                    <i class="fa-regular fa-comment"></i>
+                  </div>
                 </div>
-                <div class="paragraph">
-                  Governor Obaseki Dragged To Court Over Certificate Forgery,
-                  Perjury Governor Obaseki Dragged we all have our weakness and
-                  it is a what makes us humanThank you for all the women that i
-                  know cant go 5050 with no whore Thank you for all the women
-                  that i know cant go 5050 with no whoreThank you for all the
-                  women that i know cant go 5050 with no whore
-                </div>
+                <!--end of icon-->
               </div>
-              <div class="icon">
-                <div id="heart">
-                  <i class="far fa-heart fa-x"><span>1k</span></i>
-                </div>
-                <div id="comment">
-                  <i class="far fa-comment fa-x"> <span>200</span></i>
-                </div>
-                <div id="icon">
-                  <i class="fas fa-share"><span> 6</span></i>
-                </div>
-              </div>
-              <!--end of icon-->
             </div>
+            <!--end of posts-->
+            <div class="box posts">
+              <!-- post header-->
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <img
+                      class="dp"
+                      height="25px"
+                      src="images/pic2.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                  <div><i class="fa-regular fa-bookmark"></i></div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+              <div class="media-wrapper">
+                <div class="snippet-wrapper">
+                  <div id="media">
+                    <div id="media-innerwrapper">
+                      <img class="pic" src="images/pic2.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <!-- end of snippet wrapper -->
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                  </div>
+                  <div id="icon">
+                    <i class="fa-regular fa-comment"></i>
+                  </div>
+                </div>
+                <!--end of icon-->
+              </div>
+            </div>
+            <!--end of posts-->
+            <div class="box posts">
+              <!-- post header-->
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <img
+                      class="dp"
+                      height="25px"
+                      src="images/pic2.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                  <div><i class="fa-regular fa-bookmark"></i></div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+              <div class="media-wrapper">
+                <div class="snippet-wrapper">
+                  <div id="media">
+                    <div id="media-innerwrapper">
+                      <video src="video/moti.mp4" controls></video>
+                    </div>
+                  </div>
+                  
+                  </div>
+                </div>
+                <!-- end of snippet wrapper -->
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                  </div>
+                  <div id="icon">
+                    <i class="fa-regular fa-comment"></i>
+                  </div>
+                </div>
+                <!--end of icon-->
+              </div>
+            </div>
+            <!--end of posts-->
           </section>
           <!-- end of section -->
         </article>

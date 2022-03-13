@@ -1,61 +1,14 @@
 @font-face {
-  font-family: nun;
-  src: url(fonts/Nunito/Nunito-Regular.ttf);
-}
-@font-face {
   font-family: pop;
-  src: url(fonts/Poppins/Poppins-Light.ttf);
+  src: url("fonts/Poppins/Poppins-Light.ttf");
 }
-@font-face {
-  font-family: ubu;
-  src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);
-}
-@font-face {
-  font-family: new2;
-  src: url(fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
-}
-@font-face {
-  font-family: new1;
-  src: url(fonts/Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
-}
-
-/*
-  
-  @font-face {
-    font-family: new3;
-    src: url(fonts/Mochiy_Pop_P_One\Permanent_Marker/PermanentMarker-Regular.ttf);
-  }
-  @font-face {
-    font-family: new4;
-    src: url(fonts/Mochiy_Pop_P_One\Paytone_One\Permanent_Marker/PermanentMarker-Regular.ttf);
-  }
-  @font-face {
-    font-family: new5;
-    src: url(fonts/Carter_One\Mochiy_Pop_P_One\Paytone_One\Permanent_Marker/PermanentMarker-Regular.ttf);
-  }
-  @font-face {
-    font-family: new6;
-    src: url(fonts/Aclonica\Carter_One\Mochiy_Pop_P_One\Paytone_One\Permanent_Marker/PermanentMarker-Regular.ttf);
-  }
-  /* @font-face {
-    font-family: new7;
-    src: url(
-      fonts/Aclonic2\,
-      Carter_One\,
-      Margarine\,
-      Mochiy_Pop_P_One\,
-      Paytone_One\,
-      etc\\(1\)/
-    /* );
-  /* } */
-
 * {
   margin: px;
   padding: 0px;
   box-sizing: border-box;
   outline: none;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: Pop;
   font-size: 105%;
   font-weight: 300;
 }
@@ -705,7 +658,7 @@ article {
   font-size: 21px;
   /* color: rgb(235, 235, 241);
     text-shadow: 1px 2px black; */
-  color: rgb(216, 212, 212);
+  color: rgb(202, 198, 198);
   padding: 18px 8px;
   height: auto;
   height: 27px;
@@ -714,7 +667,7 @@ article {
   display: flex;
   flex-direction: column;
   border-radius: 50%;
-  /* background-color: #444; */
+  background-color: #444;
 
   box-sizing: border-box;
   justify-content: center;
@@ -730,17 +683,10 @@ article {
   /* height: auto */
   width: 100%;
 }
-.cat-icon {
-  color: black;
-  height: 27px;
-}
-.cat-icon:hover {
-  background-color: white;
-  color: dodgerblue;
-}
+
 .posts {
   margin: 10px auto;
-  background-color: rgb(194, 193, 193);
+  background-color: rgb(228, 226, 226);
 
   /* border: 0px; */
   width: 98%;
@@ -762,21 +708,17 @@ article {
   /* border-bottom: 2px solid #222; */
   /* background-color: #999; */
   border-radius: 18px 18px 0px 0px;
+  font-size: 18px;
 }
 .post-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.user-info-wrapper {
-  display: flex;
+  width: 300px;
   align-items: center;
   justify-content: space-around;
-  width: 250px;
-  /* background: black; */
 }
+
 .dp {
-  margin: 5px 10px;
   border-radius: 50%;
   width: 50px;
   height: 47px;
@@ -789,8 +731,7 @@ article {
 }
 .time {
   font-size: 14px;
-
-  color: dodgerblue;
+  /* color: dodgerblue; */
   position: relative;
 }
 #ellipsis {
@@ -798,36 +739,15 @@ article {
   font-size: 1.5rem;
   margin-right: 20px;
 }
-#media2 {
-  margin: 0px auto;
-  /* width: 100%;*/
-  border-radius: 50px;
-  /* margin: 0px auto; */
-  /* padding: 10px; */
-  position: relative;
-  height: 350px;
-}
 #media {
-  background: black;
   width: 100%;
-  margin: auto;
-  position: absolute;
-  border-radius: 10px 10px 10px 10px;
-  height: 100%;
-  /* background: black; */
+  margin: 0px auto 0px;
 }
-#media img {
-  object-fit: cover;
-  width: 100%;
-  /* border-radius: 20px; */
-}
-
 .pic {
   background-color: black;
   border-radius: 10px 10px 10px 10px;
   object-fit: cover;
   width: 100%;
-
   height: 100%;
 }
 video {
@@ -840,37 +760,44 @@ video {
 .media-wrapper {
   width: 98%;
   border-radius: 10px;
-  margin: 0px auto;
+  margin: auto;
   position: relative;
   box-sizing: border-box;
-  /* background-color: rgb(223, 223, 223); */
-  top: 0px;
+  display: flex;
+
+  flex-direction: column;
+
+  /* top: 0px; */
 }
 .snippet-wrapper {
   height: auto;
   position: relative;
-  background-color: yellow;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-between; */
 }
 .snippet-link {
   color: black;
   font-weight: 550;
-  /* border-bottom: 1px solid; */
+
   position: relative;
   width: 100%;
   box-sizing: border-box;
   border-radius: 10px 10px 0px 0px;
 
   margin: 0px auto;
-  background-color: lightgrey;
+
   font-size: 20px;
   overflow: hidden;
-  /* background-color: red; */
 }
 .snippet-link p {
   margin: 0px auto;
   padding: 10px 10px 10px 30px;
   border-radius: 10px;
-  background-color: blue;
+  background-color: lightgrey;
+  font-size: 1rem;
   box-sizing: border-box;
 }
 .snippet-link p::before {
@@ -893,27 +820,28 @@ video {
   width: 100%;
   border-radius: 0px 0px 10px 10px;
    */
-  margin: 0px;
-  background-color: rgb(223, 223, 223);
+  /* margin: 0px; */
   font-size: 17px;
 }
 .paragraph {
   padding: 5px;
   height: 87px;
-  background-color: red;
+  margin: 0px;
   display: inline-block;
   overflow: hidden;
+  font-size: 1rem;
 }
 .icon {
   /* color: rgb(53, 52, 52); */
   display: flex;
-  margin: auto;
+  margin: 10px auto 0px;
   justify-content: space-around;
   height: 48px;
-  /* border-top: 1px solid rgb(133, 130, 130); */
+  border-top: 1px solid rgb(133, 130, 130);
   align-items: center;
-
-  width: 90%;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
 }
 .icon i {
   font-size: 20px;
@@ -922,9 +850,7 @@ video {
   font-size: 16px;
   margin-left: 8px;
 }
-.clicked {
-  color: rgb(160, 9, 32);
-}
+
 #icon {
   text-align: center;
 }
