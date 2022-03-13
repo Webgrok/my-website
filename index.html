@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,
+    user-scalable=no"
+    />
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="fontawesome-free-6.0.0-beta3-web/css/all.min.css"
+    />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale= 1.0" /> -->
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="project.css" type="text/css" />
+    <title>Wabbit</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Carter+One&family=Margarine&family=Mochiy+Pop+P+One&family=Nova+Oval&family=Paytone+One&family=Permanent+Marker&family=Poppins:wght@300;400;500&family=Preahvihear&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <!-- this is the begining of the navigation -->
+
+    <nav class="nav">
+      <div><i class="fas fa-arrow-left arrow"></i></div>
+      <div class="searchBar">
+        <input type="search" placeholder="Search here.... " id="input" />
+      </div>
+      <div class="webName">
+        <div>
+          <img
+            height="58px"
+            width="60px"
+            src="images/logo.png"
+            style="border-radius: 50%"
+            alt=""
+          />
+        </div>
+        <div class="wabbit">
+          wabb<span
+            style="
+              color: rgb(153, 153, 153);
+              text-transform: lowercase;
+              display: inline;
+            "
+            >it</span
+          >
+        </div>
+      </div>
+      <div class="menu">
+        <!-- <i class="glyphicon glyphicon-plus"></i> -->
+
+        <i class="fas fa-search glass search"></i>
+        <i class="fas fa-home navIcon"></i>
+        <div class="toggle-icon">
+          <div class="checkbox">
+            <i class="fas fa-moon moon mStyle"></i>
+            <i class="fas fa-lightbulb bulb bStyle"></i>
+          </div>
+        </div>
+        <!-- <i class="fas fa-lightbulb bulb"></i> -->
+        <i class="fas fa-bars navIcon bars"> </i>
+      </div>
+    </nav>
+    .
+    <!-- end of the navigation -->
+
+    <aside class="sideBar">
+      <div class="content-wrapper">
+        <div class="nav-links close-links">
+          <div class="tag">
+            <div class="tag-head">
+              <div class="tag-title">updates</div>
+              <div class="caret">
+                <i class="fa-solid fa-caret-up"></i>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="tag-links">
+              <ul>
+                <li><a href="#">news</a></li>
+                <li><a href="#">politics</a></li>
+                <li><a href="#">crime</a></li>
+                <li><a href="#">business</a></li>
+                <li><a href="#">career</a></li>
+                <li><a href="#">education</a></li>
+                <li><a href="#">gossips</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of update -->
+          <div class="tag">
+            <div class="tag-head">
+              <div class="tag-title">notices</div>
+              <div class="caret">
+                <i class="fa-solid fa-caret-up"></i>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="tag-links">
+              <ul>
+                <li><a href="#">health</a></li>
+                <li><a href="#">apartment</a></li>
+                <li><a href="#">store</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">job-vacancies</a></li>
+                <li><a href="#">travel</a></li>
+                <li><a href="#">technology</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of notices -->
+          <div class="tag">
+            <div class="tag-head">
+              <div class="tag-title">entertainment</div>
+              <div class="caret">
+                <i class="fa-solid fa-caret-up"></i>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="tag-links">
+              <ul>
+                <li><a href="#">music</a></li>
+                <li><a href="#">celebrity-gist</a></li>
+                <li><a href="#">romance</a></li>
+                <li><a href="#">jokes</a></li>
+                <li><a href="#">fashion</a></li>
+                <li><a href="#">food</a></li>
+                <li><a href="#">sports</a></li>
+                <li><a href="#">hobbies</a></li>
+                <li><a href="#">gaming</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of entertainment -->
+
+          <div class="tag">
+            <div class="tag-head">
+              <div class="tag-title">auxillaries</div>
+              <div class="caret">
+                <i class="fa-solid fa-caret-up"></i>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <div class="tag-links">
+              <ul>
+                <li><a href="#">culture</a></li>
+                <li><a href="#">lifestyle</a></li>
+                <li><a href="#">religion</a></li>
+                <li><a href="#">public question</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of auxillaries -->
+        </div>
+
+        <!-- end of nav-link -->
+      </div>
+    </aside>
+
+    <div class="container1">
+      <!--begining of container 2  -->
+      <div class="container2">
+        <article class="article">
+          <div class="aside">
+            <div class="today">
+              <i class="fa-brands fa-gripfire fire"></i>Today's Trending
+            </div>
+            <div class="aside-container">
+              <div class="trendImg">
+                <div><img class="imgx" src="images/pic3.JPG" alt="" /></div>
+                <div class="overlay"></div>
+                <div class="close">x</div>
+
+                <div class="caption">
+                  <div>This is the image we will be showing you today</div>
+                </div>
+              </div>
+              <div class="trendImg">
+                <div><img class="imgx" src="images/pic2.jpg" alt="" /></div>
+                <div class="overlay"></div>
+                <div class="close">x</div>
+
+                <div class="caption">
+                  <div>This is the image we will be showing you today</div>
+                </div>
+              </div>
+              <div class="trendImg">
+                <div><img class="imgx" src="images/pic5.JPG" alt="" /></div>
+                <div class="overlay"></div>
+                <div class="close">x</div>
+
+                <div class="caption">
+                  <div>This is the image we will be showing you today</div>
+                </div>
+              </div>
+            </div>
+            <!--end of aside-container-->
+            <!-- <div class="aside-text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus hic quaerat officia numquam quibusdam neque, laborum
+                aliquid laboriosam ut deserunt nesciunt dolor inventore
+                accusamus aut quos excepturi. At dolores sapiente architecto
+                aut, molestiae perspiciatis aliquam voluptatem! Error labore
+                maxime vel possimus provident corrupti nam debitis? Sapiente
+                placeat ipsa amet aut!
+              </p>
+            </div> -->
+            <div class="topBtn">
+              <button class="top btn-default">
+                <a href="#top">Back to top</a>
+              </button>
+            </div>
+          </div>
+          <!-- end of aside -->
+
+          <!-- begining of section -->
+          <section class="section">
+            <div class="post-div">
+              <div>
+                <p class="popular-post">Politics</p>
+              </div>
+              <div class="post-">
+                <i class="fas cat-icon fa-feather-alt"></i>
+                <i class="fas fa-bell cat-icon bell"> </i>
+                <i class="fa-solid fa-grip closeIt"> </i>
+                <!-- <i> <img src="./icons/visualization.png" class="cat-icon" /></i> -->
+                <!-- <i class="closeIt">
+                  <img src="./icons/thumbnail.png" class="cat-icon"
+                /></i> -->
+                <!-- <span class="badge">20</span> -->
+              </div>
+            </div>
+            <div class="nav-link close-link">
+              <div class="tag">
+                <div class="tag-head">
+                  <div class="tag-title">
+                    <div>updates</div>
+                  </div>
+                  <div class="caret">
+                    <i class="fa-solid fa-caret-up"></i>
+                    <i class="fa-solid fa-caret-down"></i>
+                  </div>
+                </div>
+                <div class="tag-links">
+                  <ul>
+                    <!-- <li><a href="#">world news</a></li> -->
+                    <li><a href="#">politics</a></li>
+                    <li><a href="#">crime</a></li>
+                    <li><a href="#">business</a></li>
+                    <li><a href="#">career</a></li>
+                    <li><a href="#">education</a></li>
+                    <li><a href="#">gossips</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- end of update -->
+              <div class="tag">
+                <div class="tag-head">
+                  <div class="tag-title">
+                    <div>notices</div>
+                  </div>
+                  <div class="caret">
+                    <i class="fa-solid fa-caret-up"></i>
+                    <i class="fa-solid fa-caret-down"></i>
+                  </div>
+                </div>
+                <div class="tag-links">
+                  <ul>
+                    <li><a href="#">health</a></li>
+                    <li><a href="#">apartment</a></li>
+                    <li><a href="#">cars</a></li>
+                    <li><a href="#">store</a></li>
+                    <li><a href="#">events</a></li>
+                    <li><a href="#">job-vacancies</a></li>
+                    <li><a href="#">travel</a></li>
+                    <li><a href="#">technology</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- end of notices -->
+              <div class="tag">
+                <div class="tag-head">
+                  <div class="tag-title">
+                    <div>entertainment</div>
+                  </div>
+                  <div class="caret">
+                    <i class="fa-solid fa-caret-up"></i>
+                    <i class="fa-solid fa-caret-down"></i>
+                  </div>
+                </div>
+                <div class="tag-links">
+                  <ul>
+                    <li><a href="#">music</a></li>
+                    <li><a href="#">celebrity-gist</a></li>
+                    <li><a href="#">romance</a></li>
+                    <li><a href="#">jokes</a></li>
+                    <li><a href="#">fashion</a></li>
+                    <li><a href="#">food</a></li>
+                    <li><a href="#">sports</a></li>
+                    <li><a href="#">hobbies</a></li>
+                    <li><a href="#">gaming</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- end of entertainment -->
+
+              <div class="tag">
+                <div class="tag-head">
+                  <div class="tag-title">
+                    <div>others</div>
+                  </div>
+                  <div class="caret">
+                    <i class="fa-solid fa-caret-up"></i>
+                    <i class="fa-solid fa-caret-down"></i>
+                  </div>
+                </div>
+                <div class="tag-links">
+                  <ul>
+                    <li><a href="#">culture</a></li>
+                    <li><a href="#">lifestyle</a></li>
+                    <li><a href="#">religion</a></li>
+                    <li><a href="#">public question</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- end of auxillaries -->
+            </div>
+
+            <!--   end of nav-link -->
+            <div class="box posts">
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <span>
+                      <img
+                        class="dp"
+                        height="25px"
+                        src="images/pic2.jpg"
+                        alt="img"
+                      />
+                    </span>
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+              <div class="post-media">
+                <div class="text-wrapper">
+                  <div class="link">
+                    <p>
+                      Today is my birthday and we will celebrate like never
+                      before let us say our prayer before we fist
+                    </p>
+                  </div>
+                  <div class="paragraph">
+                    <p class="paragraph-text">
+                      Governor Obaseki Dragged To Court Over Certificate
+                      Forgery, Perjury Governor Obaseki Dragged we all have our
+                      weakness and it is a what makes us humanThank you for all
+                      the women that i know cant go 5050 with no whore Thank you
+                      for all the women that i know cant go 5050 with no
+                      whoreThank you for all the women that i know cant go 5050
+                      with no whore
+                    </p>
+                  </div>
+                </div>
+                <div class="icon">
+                  <div id="heart">
+                    <i class="fa-solid fa-eye eyes"
+                      ><span class="views"></span
+                    ></i>
+                  </div>
+                  <div id="comment">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                    <!-- <i class="fa-thin fa-hands-clapping hand"
+                      ><span class="clapping"></span
+                    ></i> -->
+                  </div>
+                  <div id="icon">
+                    <i class="fa-solid fa-bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <!--end of icon-->
+            </div>
+            <!-- end of posts -->
+
+            <div class="box posts">
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <img
+                      class="dp"
+                      height="25px"
+                      src="images/pic2.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+              <div class="media-wrapper">
+                <div id="media2">
+                  <div id="media">
+                    <img class="pic" src="images/pic2.jpg" />
+                  </div>
+                </div>
+                <div class="snippet-wrapper">
+                  <div class="snippet-link">
+                    <p>
+                      Today is my birthday and we will celebrate like never
+                      before let us say our prayer before we fist
+                    </p>
+                  </div>
+                  <div class="snippet-text">
+                    <p class="paragraph">
+                      Governor Obaseki Dragged To Court Over Certificate
+                      Forgery, Perjury Governor Obaseki Dragged we all have our
+                      weakness and it is a what makes us humanThank you for all
+                      the women that i know cant go 5050 with no whore Thank you
+                      for all the women that i know cant go 5050 with no
+                      whoreThank you for all the women that i know cant go 5050
+                      with no whore
+                    </p>
+                  </div>
+                </div>
+                <!-- end of snippet wrapper -->
+              </div>
+              <div class="icon">
+                <div id="heart">
+                  <i class="fa-solid fa-eye"></i>
+                </div>
+                <div id="comment">
+                  <i class="fa-solid fa-hands-clapping"></i>
+                </div>
+                <div id="icon">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+              <!--end of icon-->
+            </div>
+            <!--end of posts-->
+            <div class="box posts">
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <img
+                      class="dp"
+                      height="25px"
+                      src="images/pic2.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+              <div class="text-wrapper">
+                <div id="media2">
+                  <div id="media">
+                    <video src="video/moti.mp4" controls></video>
+                  </div>
+                </div>
+                <div class="link">
+                  <p>
+                    Today is my birthday and we will celebrate like never before
+                    let us say our prayer before we fist
+                  </p>
+                </div>
+                <div class="paragraph">
+                  Governor Obaseki Dragged To Court Over Certificate Forgery,
+                  Perjury Governor Obaseki Dragged we all have our weakness and
+                  it is a what makes us humanThank you for all the women that i
+                  know cant go 5050 with no whore Thank you for all the women
+                  that i know cant go 5050 with no whoreThank you for all the
+                  women that i know cant go 5050 with no whore
+                </div>
+              </div>
+              <div class="icon">
+                <div id="heart">
+                  <i class="fa-solid fa-eye"></i>
+                </div>
+                <div id="comment">
+                  <i class="fa-solid fa-hands-clapping"></i>
+                </div>
+                <div id="icon">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+              <!--end of icon-->
+            </div>
+            <!--end of posts-->
+
+            <div class="box posts">
+              <div class="postHeader">
+                <div class="post-wrapper">
+                  <div>
+                    <img
+                      class="dp"
+                      height="25px"
+                      src="images/pic2.jpg"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="name">micheal smith</div>
+                  <div class="time">5 hr</div>
+                </div>
+                <div>
+                  <a href="#"
+                    ><i class="fas fa-ellipsis-v" id="ellipsis"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- end of postHeader -->
+
+              <div class="box posts">
+                <div id="media2">
+                  <div id="media">
+                    <img class="pic" src="images/pic2.jpg" />
+                  </div>
+                </div>
+                <div class="link">
+                  Today is my birthday and we will celebrate like never before
+                  let us say our prayer before we fis
+                </div>
+                <div class="paragraph">
+                  Governor Obaseki Dragged To Court Over Certificate Forgery,
+                  Perjury Governor Obaseki Dragged we all have our weakness and
+                  it is a what makes us humanThank you for all the women that i
+                  know cant go 5050 with no whore Thank you for all the women
+                  that i know cant go 5050 with no whoreThank you for all the
+                  women that i know cant go 5050 with no whore
+                </div>
+              </div>
+              <div class="icon">
+                <div id="heart">
+                  <i class="far fa-heart fa-x"><span>1k</span></i>
+                </div>
+                <div id="comment">
+                  <i class="far fa-comment fa-x"> <span>200</span></i>
+                </div>
+                <div id="icon">
+                  <i class="fas fa-share"><span> 6</span></i>
+                </div>
+              </div>
+              <!--end of icon-->
+            </div>
+          </section>
+          <!-- end of section -->
+        </article>
+        <!-- end of articule -->
+      </div>
+      <!-- end of container2 -->
+    </div>
+    <!--end of container class -->
+    <script src="jsfiles/script.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
